@@ -15,9 +15,31 @@ let lastChar = fullName.slice(-1);*/
 /*console.log(firstChar);
 console.log(lastChar);*/
 
-const email = "tahir123@gmail.com";
+/*const email = "tahir123@gmail.com";
 let userName = email.slice(0, email.indexOf("@"));
 let extension = email.slice(email.indexOf("@") + 1);
 
 console.log(userName);
-console.log(extension);
+console.log(extension);*/
+
+//Exercises
+
+// ----No Method Chaining-----
+
+/*let userName = window.prompt("Enter your username: ");
+
+userName = userName.trim();
+let letter = userName.charAt(0);
+letter = letter.toUpperCase();
+
+let extraChar = userName.slice(1);
+extraChar = extraChar.toLowerCase();
+userName = letter + extraChar;
+
+console.log(userName);*/
+
+//-----Method Chaining-----
+
+/*let username = window.prompt("Enter your username: ");
+username = username.trim().charAt(0).toUpperCase() + username.trim().slice(1).toLowerCase();
+console.log(username);*/
