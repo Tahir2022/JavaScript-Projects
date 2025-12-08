@@ -43,3 +43,20 @@ console.log(userName);*/
 /*let username = window.prompt("Enter your username: ");
 username = username.trim().charAt(0).toUpperCase() + username.trim().slice(1).toLowerCase();
 console.log(username);*/
+
+/*
+= assingment operator
+== comparison operator (compare if values are equal)
+=== strict equality operator (compare if values & datatype are equal)
+!= inequality operator
+!== strict inequality operator
+*/
+
+/*const PI = "3.14";
+
+if(PI !== 3.14){
+    console.log("That is not PI")
+}
+else{
+    console.log("That is PI")
+}*/
