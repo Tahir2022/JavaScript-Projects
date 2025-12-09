@@ -92,8 +92,22 @@ while(!loggedIn){
 happyBithday("Tahir", 27);
 */
 
-function isEven(number){
-    if(number % 2 === 0){
+
+//function isEven(number){
+    /*if(number % 2 === 0){
+        return true;
+    }
+    else{
+        return false;
+    }*/
+        // using ternary method
+       // return number % 2 === 0 ? true : false;
+
+
+//console.log(isEven(7));
+
+function isValidEmail(email){
+    if(email.includes("@")){
         return true;
     }
     else{
@@ -101,4 +115,4 @@ function isEven(number){
     }
 }
 
-console.log(isEven(100));
+console.log(isValidEmail("tahir@123"));
