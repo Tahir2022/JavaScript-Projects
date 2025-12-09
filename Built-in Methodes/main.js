@@ -106,6 +106,7 @@ happyBithday("Tahir", 27);
 
 //console.log(isEven(7));
 
+/*
 function isValidEmail(email){
     if(email.includes("@")){
         return true;
@@ -116,3 +117,5 @@ function isValidEmail(email){
 }
 
 console.log(isValidEmail("tahir@123"));
+*/
+
