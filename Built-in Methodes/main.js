@@ -77,3 +77,28 @@ while(!loggedIn){
         console.log("Invalid username or password! Try again")
     }
 }*/
+
+//function = a section of reusable code
+//           declare code once, use it whenever you want.
+
+/*function happyBithday(username,age){
+    console.log("Happy birthday to you!");
+    console.log("Happy birthday to you!");
+    console.log(`Happy bithday dear ${username}`);
+    console.log("Happy birthday tou you!");
+    console.log(`You are ${age} years old`);
+}
+
+happyBithday("Tahir", 27);
+*/
+
+function isEven(number){
+    if(number % 2 === 0){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+
+console.log(isEven(100));
