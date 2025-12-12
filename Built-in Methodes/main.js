@@ -131,3 +131,16 @@ for(let row of matrix){
     console.log(rowString);
 }
 */
+
+/*
+function add(...numbers){
+    let result = 0;
+
+    for(let number of numbers){
+        result += number;
+    }
+    return result;
+}
+
+console.log(add(2, 5, 10));
+*/
