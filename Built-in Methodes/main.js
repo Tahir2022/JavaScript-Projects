@@ -144,3 +144,19 @@ function add(...numbers){
 
 console.log(add(2, 5, 10));
 */
+
+// callback = a function that is passed as an argument
+//              to another function
+
+/*
+function hello(callback){
+    console.log("Hello!");
+    callback();
+}
+
+function go(){
+    console.log("Go!")
+}
+
+hello(go);
+*/
