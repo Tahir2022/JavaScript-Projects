@@ -160,3 +160,66 @@ function go(){
 
 hello(go);
 */
+
+//forEach() = method used to iterate over elements
+//            of an array and apply a specified function(callback)
+//            to each element
+
+
+/*
+let numbers = [1,2,3,4,5];
+
+
+numbers.forEach(double);
+numbers.forEach(display);
+
+
+function display(element){
+    console.log(element);
+}
+
+function double(element, index, array){
+    array[index] = element * 2;
+}
+*/
+
+
+/*
+let fruits = ["apple", "orange", "banana", "coconut"];
+
+
+fruits.forEach(capitalize);
+fruits.forEach(display);
+
+function display(element){
+    console.log(element);
+}
+
+function upperCase(element, index, array){
+    array[index] = element.toUpperCase();
+}
+
+function capitalize(element, index, array){
+    array[index] = element.charAt(0).toUpperCase() + element.slice(1);
+}
+*/
+
+//.map() = accepts a callback an applies that function
+//         to each element of an array, then return a new array
+
+/*
+const numbers = [1,2,3,4,5];
+const squares = numbers.map(square);
+const cubes = numbers.map(cube);
+
+console.log(cubes);
+
+
+function square(element){
+    return Math.pow(element,2);
+}
+
+function cube(element){
+    return Math.pow(element, 3);
+}
+*/
